@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <button id="btn1" class="btn">1<audio src="./sounds/bass_drum.wav" class="sound"></audio></button>
+        <button id="btn2" class="btn">2<audio src="./sounds/snare_drum.wav"class="sound"></audio></button>
+        <button id="btn3"class="btn">3<audio src="./sounds/hand_clap.wav"class="sound"></audio></button>
+        <button id="btn4"class="btn">4<audio src="./sounds/rim_shot.wav"class="sound"></audio></button>
+    </div>
+    
+</body>
+<script src="./app.js"></script>
+<style>
+    body{
+        background:linear-gradient(99.87530138281954deg, rgba(131, 200, 242,1) 38.6015625%,rgba(133, 9, 227,1) 98.2890625%)
+
+
+;
+    }
+.wrapper{
+position:absolute;
+height:5cm;
+width:15cm;
+top:60%;
+left:30%;
+}
+.btn{
+    
+    background:none;
+    border: 2px solid white;
+    padding:10px;
+    margin:5px;
+    width:3cm;
+    height: 2cm;
+    color:white;
+    transition:0.2s;
+    font-size:25px;
+}
+ .btn:hover{
+     border-radius:50px;
+     
+ }
+
+
+</style>
+</html>
